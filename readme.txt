@@ -1,0 +1,1 @@
+If the .py file is made to run in command prompt we get a local host id which if we run in any of the browser we will get the quiz questions and accordingly.

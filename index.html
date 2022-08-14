@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script src="jquery.js" > </script>
+        <script src="bootstrap.min.js" > </script>
+        <script src="main.js" > </script>
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid fillPage">
+            <div class="card quiz-card border-left border-bottom">
+                <div class="row quiz-card-top border-bottom">
+                    <div class="col-sm-6" style="padding-top:0.5%"><h2>MCQ Quiz</h2></div>
+                    <div class="col-sm-6" style="padding-top:1.5%; text-align:right"><h9>(5 of 10)</h9></div>
+                </div>
+                <div class="row quiz-card-middle">
+                    <div class="col-sm-12 align">
+                        <span style="font-size:40px">Q.</span><div id="question">What is the capital of brazil</div><br>
+                        <button type="button" class="btn btn-outline-danger" id="op1">Rio</button><br>
+                        <button type="button" class="btn btn-outline-danger" id="op2">Port</button><br>
+                        <button type="button" class="btn btn-outline-danger" id="op3">Perth</button><br>
+                        <button type="button" class="btn btn-outline-danger" id="op4">New York</button>
+                    </div>
+                </div>
+                <div class="row quiz-card-bottom border-top">
+                    <div class="col-sm-6 align">
+                        <button type="button" class="btn btn-danger" id="prev">< Previous</button>
+                    </div>
+                    <div class="col-sm-6 align" style="text-align:right">
+                        <button type="button" class="btn btn-success" id="next">Next ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
